@@ -72,8 +72,8 @@
 
 .card__list-divider {
   display: inline-block;
-  width: 350px; /* Adjust the width as needed */
-  border-bottom: 0.5px solid #000; /* Create the long underscore */
-  margin: 1px; /* Add space between text and the underline */
-  vertical-align: middle; /* Align it properly with text */
+  width: 350px;
+  border-bottom: 0.5px solid #000;
+  margin: 1px;
+  vertical-align: middle;
 }
