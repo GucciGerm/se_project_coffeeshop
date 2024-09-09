@@ -3,6 +3,11 @@
   color: white;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
 }
 
 .about__title {
@@ -23,10 +28,14 @@
   display: block;
 }
 
+.about__content {
+  margin-top: -119px;
+  margin-bottom: 173px;
+}
+
 .about__paragraph {
   list-style-type: none;
   max-width: 660px;
-  position: relative;
   z-index: 1;
   display: flex;
   margin-bottom: 15px;

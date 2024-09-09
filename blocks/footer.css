@@ -33,6 +33,8 @@ img.footer__logo {
 .footer__list {
   list-style-type: none;
   justify-content: flex-end;
+  margin: 0;
+  padding-left: 0;
 }
 
 .footer__list-item {
@@ -40,10 +42,15 @@ img.footer__logo {
   display: flex;
 }
 
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
 .footer__social-heading {
   display: flex;
   justify-content: flex-end;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .footer__social-icon {
