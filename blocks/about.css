@@ -1,4 +1,5 @@
 .about {
+  padding: 100px 80px 173px;
   background-color: #0a2850;
   color: white;
   position: relative;
@@ -6,16 +7,15 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
-  flex-direction: column;
 }
 
 .about__title {
   max-width: 251px;
   position: relative;
   z-index: 1;
-  margin-top: 100px;
-  margin-left: 80px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -28,11 +28,6 @@
   display: block;
 }
 
-.about__content {
-  margin-top: -119px;
-  margin-bottom: 173px;
-}
-
 .about__paragraph {
   list-style-type: none;
   max-width: 660px;
@@ -41,14 +36,15 @@
   margin-bottom: 15px;
   line-height: 24px;
   margin-left: auto;
-  margin-right: 80px;
-  padding-left: 80px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  top: -119px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
